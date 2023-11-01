@@ -1,0 +1,35 @@
+// this is my own code
+//import java.util.Scanner;
+
+// public class Exercise{
+//     public static void main(String[] args)
+//     {   Scanner input = new Scanner(System.in);
+
+//         System.out.println("Enter the 1st integer: ");
+//         int num=input.nextInt();
+//         System.out.println("Enter the 2nd integer: ");
+//         int num2=input.nextInt();
+
+//         if(num>num2){
+//             System.out.println(num2+" "+num);
+//         }
+//         else
+//         System.out.println(num+" "+num2);
+
+//     }
+// }
+import java.util.Scanner;
+public class Exercise{
+public static void main(String[] args){
+Scanner console = new Scanner(System.in);
+int a= console.nextInt();
+int b = console.nextInt();
+if (b < a){
+int t = a;
+a = b;
+b = t;
+}
+System.out.println(a);
+System.out.println(b);
+}
+}
